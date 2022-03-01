@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Test Player</title>
+    </head>
+    <body style="margin:0px;">
+        <div id="player"></div>
+        <script src="https://cdn.jwplayer.com/libraries/dVoq0QmS.js"></script>
+
+        <script>
+            jwplayer("player").setup({
+                "playlist": "https://cdn.jwplayer.com/v2/playlists/GYVXiNeU?related_media_id=ZG6eWbJg",
+                "plugins": {
+                    "https://s3.us-west-2.amazonaws.com/MY_S3_BUCKET/branding.js": {
+                        "endpoint": "https://htX8r10te4.execute-api.us-west-2.amazonaws.com/MY_CUSTOM/ENDPOINT"
+                    }
+                }
+            })
+        </script>
+    </body>
+
+</html>

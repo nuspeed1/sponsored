@@ -1,0 +1,5 @@
+CREATE TABLE medias(
+    id SERIAL PRIMARY KEY,
+    media_id VARCHAR(8) NOT NULL UNIQUE,
+    media_count INTEGER NOT NULL
+)
